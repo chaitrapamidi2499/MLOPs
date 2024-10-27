@@ -4,6 +4,9 @@ Contents of the repository:
   <li> src repo - ML model building repo </li>
   <li> pyproject.toml (newer dependencies), setup.py (older dependencies) - Install all dependencies required for the ML model building </li>
   <li> requirements.txt - consist of all dependencies (Python packages) to be installed </li>
+  <li> tox.ini - For testing changes </li>
+  <li> experiment - The experiments performed in the various steps of model building to arrive at the best approaches and parameters </li>
+  <li> .github/workflows - CI/CD, Deployment
 </ol>
 
 
