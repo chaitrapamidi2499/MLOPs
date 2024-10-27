@@ -20,7 +20,7 @@ setup(
 name='MLOPSproject',
 version='0.0.1',
 author='Shruti Sharada, Vaishali, Abishek, Chaitra, Aysha Fathima',
-author_email='sssharada99@gmail.com, vaishali.sekar_ds24fall@praxistech.school, abishek.k_ds24fall@praxistech.school, chaitra.pamidi_ds24fall@praxistech.school, aysha.fathima.m_ds24fall@praxistech.school',
+author_email='sssharada99@gmail.com, vaishali.sekar_ds24fall@praxistech.school, abishek.k_ds24fall@praxistech.school, chaitra.pamidi_ds24fall@praxistech.school, ayshafathima2308@gmail.com',
 packages=find_packages(),
 install_requires=get_requirements('requirements.txt')
 )

@@ -1,0 +1,9 @@
+[project]
+name = "MLOPSproject"
+version = "0.1.0"
+dependencies = [
+    "pandas",
+    "numpy",
+    "seaborn"
+    "logging"
+]
