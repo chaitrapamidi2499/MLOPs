@@ -10,7 +10,7 @@ import sys
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path=os.path.join('artifacts','preprocessor.pkl')
+    pass
 
 class DataTransformation:
     def __init__(self):
@@ -24,17 +24,7 @@ class DataTransformation:
 
     def initialize_data_transformation(self,train_path,test_path):
         try:
-            train_df=pd.read_csv(train_path)
-            test_df=pd.read_csv(test_path)
-            
-            logging.info("read train and test data complete")
-            logging.info(f'Train Dataframe Head : \n{train_df.head(2).to_string()}')
-            logging.info(f'Test Dataframe Head : \n{test_df.head(2).to_string()}')
-
-            logging.info("Obtaining Preprocessor Object")
-
-            preprocessing_obj = self.get_data_transformation()
-
+            pass
         except:
             pass
 
