@@ -17,14 +17,7 @@ class DataTransformation:
         self.data_transformation_config=DataTransformationConfig()
 
     def get_data_transformer_obj(self):
-        try:
-            pass
-        except:
-            pass
+        pass
 
     def initialize_data_transformation(self,train_path,test_path):
-        try:
-            pass
-        except:
-            pass
-
+        pass
