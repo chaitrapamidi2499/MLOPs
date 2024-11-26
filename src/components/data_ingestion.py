@@ -8,7 +8,7 @@ from dataclasses import dataclass
 @dataclass
 class DataIngestionConfig:
     raw_data_path:str=os.path.join("artifacts","data.csv")
-    # test-train split
+    # Test-train split
 
 class DataIngestion:
     def __init__(self):
