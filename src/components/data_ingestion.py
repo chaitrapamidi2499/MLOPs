@@ -7,8 +7,7 @@ from dataclasses import dataclass
 
 @dataclass
 class DataIngestionConfig:
-    raw_data_path:str=os.path.join("artifacts","data.csv")
-    # Create test and train file paths with os.path.join
+    pass
 
 class DataIngestion:
     def __init__(self):
