@@ -19,5 +19,5 @@ class DataTransformation:
     def get_data_transformer_obj(self):
         pass
 
-    def initialize_data_transformation(self,train_path,test_path):
+    def initialize_data_transformation(self):
         pass
