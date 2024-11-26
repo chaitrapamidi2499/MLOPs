@@ -4,11 +4,11 @@ from src.logger import logging
 from src.exception import CustomException
 from pathlib import Path
 
-from dataclasses import dataclass
+#from dataclasses import dataclass
 import os
 import sys
 
-@dataclass
+#@dataclass
 class DataTransformationConfig:
     pass
 
